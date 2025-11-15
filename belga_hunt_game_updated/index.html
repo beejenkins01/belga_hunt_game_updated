@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hunt em' up, Belga!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="game-canvas"></canvas>
+
+    <div id="start-screen" class="overlay">
+      <div class="overlay-content">
+        <h1>Hunt em' up, Belga!</h1>
+        <p>Score three points to see the full dinner invite!</p>
+        <button id="start-button">Start</button>
+      </div>
+    </div>
+
+    <div id="message" class="overlay hidden">
+      <div class="overlay-content small">
+        <p id="message-text"></p>
+      </div>
+    </div>
+
+    <div id="score-display">Score: 0</div>
+    <div id="feedback" class="feedback hidden">GOOD GIRL BELGA!</div>
+    <div id="plus-one" class="plus-one hidden">+1</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
